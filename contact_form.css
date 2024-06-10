@@ -185,7 +185,7 @@ form .bx{
     font-size: 20px;
 }
 
-@media only screen and (max-width: 420px){
+@media only screen and (max-width: 481px){
     .text-section img {
         width: 24ch;
         left: 21%;
