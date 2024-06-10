@@ -356,12 +356,12 @@ footer{
 .footer-colm a{
     text-decoration: none;
 }
-@media only screen and (max-width: 393px){
+@media only screen and (max-width: 482px){
     .nav-section,.about-us,footer {
-        width: 268%;
+        width: 100%;
     }
     .full{
-        width: 268%;
+        width: 100%;
         height: 277vh;
     }
     .full img {
@@ -370,25 +370,95 @@ footer{
         width: 51%;
     }
     .d1 img {
-        height: 20ch;
+        height: 16ch;
     }
     .image p{
-        width: 28ch;
+        width: fit-content;
+        top: 37%;
+        left: 16%;
+        font-size: 27px;
     }
+
     .image img {
-        width: 128%;
+        width: 53%;
+        top: 25%;
+        left: 21%;
     }
     .d2 p {
-        margin: 0 35px;
+        margin: 0 0px;
+        padding-right: 70px;
+        text-align: left;
     }
     .about {
-        margin: 31px 0 0 40px;
+        margin: 31px 0 0 10px;
+        flex-direction: column;
     }
     .footer-row {
-        padding-bottom: 0px;
-        padding-top: 24px;
+        display: block;
+        padding: 20px 0;
+        text-align: center;
     }
     .bttn {
-        margin: 10px 78px 17px
+        margin: 10px 57px 17px;
+        width: 73%;
+    }
+    .bttn:hover{
+        cursor: pointer;
+        transform: scale(1.2);
+        transition:.5s
+    }
+    .nav-bar{
+        flex-direction: column;
+        width: 100%;
+    }
+    #navbar ul{
+        justify-content: center;
+    }
+    .about-us h1 {
+        text-align: left;
+        font-size: 32px;
+        padding: 10px 101px;
+    }
+    .list {
+        margin: 10px 0px;
+    }
+    footer{
+        height: 150vh;
+    }
+    .footer-icon {
+        width: calc(50%);
+        gap: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 21px 111px;
+    }
+    .text-section2{
+        flex-direction: column;
+    }
+    .text-section2 p{
+        font-size: 12px;
+    }
+    .bttn .bx{
+        display: none;
+    }
+    .text-section{
+        flex-direction: column;
+        text-align: center;
+        height: 15%;
+    }
+    .about-us{
+        height:106vh;
+    }
+    .nav-section{
+        height:53vh;
+    }
+    .head p{
+        text-align:center;
+    }
+    .btn{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px;
+        padding-top: 0;
     }
 }
