@@ -462,3 +462,20 @@ footer{
         padding-top: 0;
     }
 }
+@media only screen and (max-width: 401px){
+    footer {
+        height: 160vh;
+    }
+    .footer-icon {
+        gap: 6px;
+        width: calc(55%);
+        /* gap: 10px; */
+        display: flex;
+        flex-wrap: wrap;
+        margin: 21px 102px;
+    }
+    .about-us {
+        height: 118vh;
+    }
+    
+}
